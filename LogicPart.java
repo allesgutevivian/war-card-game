@@ -9,7 +9,7 @@ public class LogicPart {
 	public static void main(String[] args) {
 		
 		// the array of all the cards 所有牌的序列 모든 카드의 시퀀스
-		String[] suits = {"♦️","♠️","♣️","♥️"};
+		String[] suits = {"Diamonds️","Spades️","Clubs️","Hearts️"};
 		String[] number = {"2","3","4","5","6","7","8","9","10","J","Q","K","A"};
 		List<Card> deck = new ArrayList<>();
 		for (String suit : suits) {
